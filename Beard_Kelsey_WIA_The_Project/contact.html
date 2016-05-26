@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Us</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+
+
+<div id="container">
+    <!-- begin drop down navigation -->
+
+    <nav id="main_nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">Shop</a>
+                <!-- sub menu 1 -->
+                <ul>
+                    <li><a href="#">Bikes</a>
+                        <!-- sub menu 2-->
+                        <ul>
+                            <li><a href="bikes_new.html">New</a></li>
+                            <li><a href="bikes_used.html">Used</a></li>
+                            <li><a href="bikes_featured.html">Featured Bikes</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="parts.html">Parts</a> </li>
+                    <li><a href="gear.html">Custom Gear</a></li>
+                </ul>
+            </li>
+
+            <li><a href="#">Sell/Trade</a>
+
+                <ul>
+                    <li><a href="quote.html">Get a Quote</a></li>
+                </ul>
+            </li>
+
+            <li><a href="#">Repair</a>
+
+                <ul>
+                    <li><a href="#">Get a Quote</a></li>
+                    <li><a href="#">Schedule a Repair</a></li>
+                    <li><a href="#">Track My Repair</a></li>
+                </ul>
+            </li>
+            <li class="active"><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h2>Contact Us</h2>
+
+
+    </section>
+</div>
+
+
+<footer>
+
+    <!-- use google app for map -->
+
+    <p>
+        New Haven Bicycles
+        <br>
+        502 Broadway Street
+        <br>
+        New Haven, Indiana 46774
+    </p>
+
+    &copy; New Haven Bicycles 2016
+
+    <!-- Google Map Location -->
+
+    <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:440px;width:500px;'><div id='gmap_canvas' style='height:440px;width:500px;'></div><div><small><a href="http://embedgooglemaps.com">									embed google maps							</a></small></div><div><small><a href="http://freedirectorysubmissionsites.com/">free web directories</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(41.10765497992795,-85.03180089428713),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(41.10765497992795,-85.03180089428713)});infowindow = new google.maps.InfoWindow({content:'<strong>New Haven Bicycles</strong><br>502 Broadway Street New Haven, Indiana 46774<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+
+</footer>
+
+</body>
+</html>
